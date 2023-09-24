@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.deck-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 288px;
+    height: 100vh;
+}
+.deck-title{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    height: 40px;
+    padding-bottom: 30px;
+}
+.deck-title-name{
+    color: rgb(39,42,47);
+    display: flex;
+    gap: 14px;
+    font-size: small;
+}
+.deck-title-options{
+    color: rgb(176, 176, 176);
+    display: flex;
+    gap: 1px;
+}
+.deck-title-options button{
+    border: none;
+    background: transparent;
+}
+
+.deck-title-options button svg{
+    width: 15px;
+    height: 15px;
+}
+.deck-content{
+    display: grid;
+    gap: 12px;
+
+}

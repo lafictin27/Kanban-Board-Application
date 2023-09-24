@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.card-temp{
+    background-color: white;
+    display: grid;
+    gap: 1px;
+    border: 1px solid rgb(227,230,232);
+    box-shadow: 0px 0px 0.5px 0.5px rgb(227,230,232);
+    border-radius: 6px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.card-temp-info{
+    font-size: 11px;
+    align-items: center;
+    display: flex;
+    color: rgb(104,108,114);
+    justify-content: space-between;
+}
+.card-temp-info-userpic{
+    align-items: center;
+    width: 16px;
+    color: rgb(104,108,114);
+    height: 16px;
+}
+.card-temp-subject{
+    display: flex;
+    color: rgb(39,42,47);
+    font-size: 13px;
+    max-width: 180px;
+    height: 30px;
+    font-weight: bolder;
+    overflow-y: scroll;
+}
+.card-temp-subject-status{
+    justify-content: center;
+    padding: 2px;
+    
+}
+.card-temp-category{
+    display: flex;
+    padding-top: 6px;
+    padding-left: 2px;
+    gap: 5px;
+}
+.card-temp-category-logo{
+    border: 1px solid rgb(227,230,232);
+    border-radius: 4px;
+    padding: 1px;
+    width: 20px;
+    color: rgb(155, 155, 155);
+    height: 20px;
+}
+.card-temp-category-name{
+    align-items: center;
+    font-size: 10px;
+    border: 1px solid rgb(227,230,232);
+    border-radius: 4px;
+    color: rgb(135, 135, 135);
+    padding: 2px 8px;
+    overflow-x: scroll;
+}
